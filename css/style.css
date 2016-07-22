@@ -44,12 +44,16 @@ body {
   box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
 }
 .header-auth > form {
-	padding-top: 2px;
-	padding-left: 4px;
+	padding-top: 3px;
+	padding-left: 7px;
 }
 .header-auth form input {
-	width: 114px;
-	margin-right: 7px;
+	width: 113px;
+	height: 17px;
+	margin-right: 4px;
+}
+.header-auth .password {
+	padding-left: 2px;
 }
 .header-auth a {
 	display: inline-block;
@@ -58,19 +62,27 @@ body {
 	font-family: "Lucida Sans Unicode", Arial, sans-serif;
 }
 .header-auth .first {
-	padding-right: 6px;
+	width: 36px;
+	margin-right: 1px;
     margin-left: -5px;
-	border-right: 1px solid white;
+    border: 0;
+    border-right: 1px solid white;
+    background: transparent;
+    text-decoration: underline;
+    color: white;
+    text-align: right;
+    font-size: 10px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
 }
 .header-auth a:last-child {
-	margin-left: 20px;
+	margin-left: 19px;
 	font-size: 12px;
 	text-decoration: underline;
 	color: #bfbfbf;
 }
 .header-links {
-	height: 20px;
-	width: 76px;
+	height: 22px;
+	width: 77px;
 	background: #FFF;
 	border: 1px solid #bdc4c7;
 	border-radius: 9px;
@@ -117,7 +129,9 @@ body {
 .nav-menu li {
 	display: inline-block;
 	vertical-align: middle;
-
+}
+.nav-menu a:first-child {
+	padding-right: 10px;
 }
 .nav-menu a {
 	display: block;
@@ -127,7 +141,6 @@ body {
 	font-size: 14px;
 	font-family: "Lucida Sans Unicode", Arial, sans-serif;
 }
-
 .nav-menu li:hover {
 	display: inline-block;
 	vertical-align: middle;
@@ -147,13 +160,13 @@ body {
 .nav-sale--basket {
 	display: inline-block;
 	vertical-align: middle;
-	height: 17px;
+	height: 15px;
 }
 .nav-sale p {
 	display: inline-block;
 	color: #929b9f;
 	font-size: 11px;
-	margin: 7px 0 0 5px;
+	margin: 7px 0 0 4px;
 }
 .nav-sale p:last-child {
 	color: #0d5a8f;
